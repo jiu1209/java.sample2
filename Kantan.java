@@ -1,7 +1,6 @@
 public class Kantan {
 	public static void main(String[] args) {
-		 System.out.println("意外に \"Java\" って簡単だ。");
-		 System.out.println("意外に \"Java\" って簡単だ。");
-		 System.out.println("意外に \"Java\" って簡単だ。");
+		//光の速度の計算
+		 System.out.println("光が1日に進む速度は"+300000L*86400L+"キロメートルです。");
 	}
 }
