@@ -5,9 +5,10 @@ public class Kasa1 {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		try {
-			System.out.println("時刻を入力してください。");
-			String line = reader.readLine();
-			int n = Integer.parseInt(line);
+		  System.out.println("時刻を入力してください。");
+		  String line = reader.readLine();
+		  int n = Integer.parseInt(line);
+		  
 		if (n < 0 || n > 23) {
           System.out.println("時刻の範囲を超えています");
 		} else if (n <= 11)  {
@@ -19,6 +20,7 @@ public class Kasa1 {
 		} else {
 		  System.out.println("こんばんは");
 		}
+
 		} catch (IOException e) {
 					System.out.println(e);
 
