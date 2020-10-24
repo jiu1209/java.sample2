@@ -1,5 +1,18 @@
+import java.io.*;
+
 public class Hello {
 	public static void main(String[] args) {
-		 System.out.println("Hello!");
+				BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+				try {
+					String line;
+					while ((line = reader.readLine()) != null) {
+						String s = line.toLowerCase();
+						System.out.println(s);
+					}
+                 
+				} catch (IOException e) {
+					System.out.println(e);
+			}
+		}
 	}
-}
