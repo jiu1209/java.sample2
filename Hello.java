@@ -7,7 +7,8 @@ public class Hello {
 				try {
 					String line;
 					while ((line = reader.readLine()) != null) {
-						String s = line.toLowerCase();
+						String s = line.toString();
+						s = s.toString();
 						System.out.println(s);
 					}
                  
@@ -16,3 +17,4 @@ public class Hello {
 			}
 		}
 	}
+ 
