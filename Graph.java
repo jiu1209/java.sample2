@@ -1,15 +1,12 @@
 public class Graph {
 	public static void main(String[] args) {
-		int i = 0;
-
-		while (i < 10) {
-			int j = 0;
-			while (j <i*i) {
-              System.out.print("*");
-              j++;
+		 System.out.println(getpower(8,3));
+		}
+		public static int getpower(int x , int n) {
+			int y = 1;
+			for (int i = 0; i < n; i++) {
+				y = y * x;
 			}
-			  i++;
-			  System.out.println("");
+			return y;
 		}
 	}
-}
