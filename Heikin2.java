@@ -1,16 +1,9 @@
 public class Heikin2 {
 	public static void main(String[] args) {
-		int[] ten;
-		int sum;
+		int[] ten= {63,90,75,45,81};
+		int sum = 0;
 		double heikin;
-
-		ten = new int[5];
-		ten[0] = 63;
-		ten[1] = 90;
-		ten[2] = 75;
-		ten[3] = 45;
-		ten[4]=  81;
-		sum = 0;
+		
 		for (int i=0; i < ten.length; i++) {
           sum = sum + ten[i];
 		}
