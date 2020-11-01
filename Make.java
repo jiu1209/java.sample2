@@ -17,6 +17,8 @@ public class Make {
 					System.out.println("<h1>"+line.substring(1)+"</h1>");
 				} else if (line.startsWith("⚫️")) {
 					System.out.println("<h2>"+line.substring(1)+"</h2>");
+				} else if (line.startsWith("▲")) {
+                    System.out.println("<h3>"+line.substring(1)+"</h3>");
 				} else {
 					System.out.println("<p>"+line+"</p>");
 				  }

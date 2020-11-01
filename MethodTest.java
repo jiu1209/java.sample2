@@ -1,13 +1,13 @@
-public class DrawGraph1 {
+public class MethodTest {
+	public static String[] getYourName() {
+        String[] namae = new String[2];
+        namae[0] = "有機";
+        namae[1] = "剛";
+        return namae;
+     }
     public static void main(String[] args) {
-    	String x;
-    	String y;
-    	getYourName(x,y);
-    	System.out.println("名字は"+x);
-    	System.out.println("名前は"+y);
-	    }
-	public static void getYourName(String myoji, String names) {
-		myoji = "古矢";
-		names = "修一";
+        String[] v = getYourName();
+        System.out.println("名字は" + v[0]);
+        System.out.println("名前は" + v[1]);
 	}
 }
